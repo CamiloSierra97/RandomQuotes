@@ -10,12 +10,12 @@ const Introduction = ({ click, setSearch, search }) => {
     console.log(search)
 
     return (
-        <article className="introduction">
-            <main>
+        <section className="introduction">
+            <article>
                 <p>Welcome, please press the button to find famous Quotes</p>
                 <button onClick={submit}>Let's try!</button>
-            </main>
-        </article>
+            </article>
+        </section>
     )
 }
 
